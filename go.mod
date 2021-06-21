@@ -1,3 +1,3 @@
-module github.com/yudwig/errmux
+module github.com/yudwig/ermux
 
 go 1.16
