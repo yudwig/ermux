@@ -2,13 +2,13 @@
 
 ermux is a minimal GO library for multi-error handling.
 
-## installation
+## Installation
 
 ```sh
 go get https://github.com/yudwig/ermux
 ```
 
-## usage
+## Usage
 
 * import 
 ```go
@@ -30,7 +30,7 @@ if ermux.Some(errs) {
 }
 ```
 
-## feature
+## Features
 
 ermux simplify below code.
 
@@ -49,7 +49,7 @@ if err != nil {
 }
 ```
 
-## docs
+## Docs
 
 ermux has only 4 functions.
 
