@@ -26,7 +26,7 @@ b, errs[1] = exec()
 c, errs[2] = exec()
 
 if ermux.Some(errs) {
-	return ermux.First(errs)
+    return ermux.First(errs)
 }
 ```
 
@@ -37,15 +37,15 @@ ermux simplify below code.
 ```go
 a, err = exec()
 if err != nil {
-  return err
+    return err
 }
 b, err = exec()
 if err != nil {
-  return err
+    return err
 }
 c, err = exec()
 if err != nil {
-  return err
+    return err
 }
 ```
 
